@@ -1,4 +1,6 @@
 springdoc:
   version: '@springdoc.version@'
+#  https://springdoc.org/#swagger-ui-properties
   swagger-ui:
     use-root-path: true
+#    Enable the swagger-ui in the root path
