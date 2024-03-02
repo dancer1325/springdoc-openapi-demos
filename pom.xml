@@ -122,6 +122,7 @@
 		<module>springdoc-openapi-spring-boot-2-webflux</module>
 		<module>springdoc-openapi-spring-boot-2-webflux-functional</module>
 		<module>springdoc-openapi-book-service</module>
+		<module>springdoc-openapi-book-service-customized</module>
 		<module>springdoc-openapi-book-service-v3</module>
 		<module>springdoc-openapi-book-service-graalvm</module>
 		<module>springdoc-openapi-oauth2</module>
