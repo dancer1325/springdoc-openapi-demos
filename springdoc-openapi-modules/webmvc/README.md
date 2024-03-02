@@ -1,7 +1,7 @@
 # spring-webmvc
 * Spring Boot's dependency
 * 'springdoc-openapi-starter-webmvc-api'
-  * springdoc dependency built on top of
+  * springdoc dependency built on top of 'spring-webmvc'
   * exposes API documentation in
     * JSON
     * YAML
