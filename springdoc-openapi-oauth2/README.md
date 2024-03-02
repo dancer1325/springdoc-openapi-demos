@@ -1,6 +1,5 @@
-## Spring Security OAuth - New Stack
-
-### Relevant information:
+# Spring Security OAuth - New Stack
+## Relevant information:
 
 1. `oauth-authorization-server` is a Keycloak Authorization Server wrapped as a Spring
    Boot application
@@ -23,3 +22,8 @@
    backend Application
    swagger-ui:  http://localhost:8082/resource-server/swagger-ui.html
 
+# Introduction
+* API documentation
+  * supports
+    * OAuth2
+      * TODO: Check the valid project and make it run
