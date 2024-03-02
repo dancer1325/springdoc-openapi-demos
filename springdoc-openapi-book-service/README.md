@@ -1,7 +1,22 @@
-# Relevant Articles:
-
-* [Outdated] [Documenting a Spring REST API Using OpenAPI 3.0](https://www.baeldung.com/spring-rest-openapi-documentation)
-  * Not valid anymore
+# Introduction
+* API documentation
+  * formats
+    * HTML -- http://localhost:8080/swagger-ui/index.html --
+    * JSON -- http://localhost:8080/v3/api-docs --
+    * YAML -- http://localhost:8080/v3/api-docs.yaml --
+  * based on
+    * class structure
+      * check in the JSON/YAML format, the HTTP methods, requests, responses, ...
+    * swagger-api annotations
+      * check in the JSON/YAML format, `operationId`, `responses`, `tag`, .. -- [schema](https://swagger.io/specification/)
+  * requirements
+    * application at runtime
+      * if the application is down -> you can NOT reach the paths HTML / JSON / YAML
+  * supports
+    * OpenAPI3
+      * check the swagger-api annotations
+    * JSR-303
+      * check `@NotNull`, `@Size`, ...
 
 # How to run it locally?
 * Run it locally as mvn spring boot project
