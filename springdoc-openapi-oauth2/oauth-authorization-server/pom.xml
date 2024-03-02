@@ -9,6 +9,8 @@
 	</parent>
 	<artifactId>oauth-authorization-server</artifactId>
 
+	<!-- TODO: Check a dependency to replace this not found one -->
+	<!--
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -22,6 +24,7 @@
 		</dependencies>
 	</dependencyManagement>
 
+
 	<dependencies>
 		<dependency>
 			<groupId>com.github.thomasdarimont.embedded-spring-boot-keycloak-server
@@ -29,7 +32,7 @@
 			<artifactId>embedded-keycloak-server-spring-boot-starter</artifactId>
 			<version>5.0.2</version>
 		</dependency>
-	</dependencies>
+	</dependencies>-->
 
 	<repositories>
 		<repository>
