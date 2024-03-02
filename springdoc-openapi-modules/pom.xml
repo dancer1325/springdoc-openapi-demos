@@ -16,6 +16,7 @@
 
 	<modules>
 		<module>webmvc</module>
+		<module>webflux</module>
 	</modules>
 
 </project>
