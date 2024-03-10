@@ -1,0 +1,11 @@
+#### Get all
+#TODO: Make it work
+GET {{local}}
+Content-Type: application/json
+Authorization: Basic {{user}} {{password}}
+
+### Get another
+#TODO: Make it work
+GET {{local}}{{another}}
+Content-Type: application/json
+Authorization: Basic {{user}} {{password}}

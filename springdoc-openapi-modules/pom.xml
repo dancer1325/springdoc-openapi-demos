@@ -18,6 +18,8 @@
 		<module>webmvc</module>
 		<module>webflux</module>
 		<module>actuator</module>
+		<module>securityorauthorizationserverwebmvc</module>
+		<module>securityorauthorizationserverwebflux</module>
 		<module>kotlin</module>
 	</modules>
 
