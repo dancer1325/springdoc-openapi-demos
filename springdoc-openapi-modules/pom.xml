@@ -21,6 +21,7 @@
 		<module>securityorauthorizationserverwebmvc</module>
 		<module>securityorauthorizationserverwebflux</module>
 		<module>kotlin</module>
+		<module>hateoas</module>
 	</modules>
 
 </project>
