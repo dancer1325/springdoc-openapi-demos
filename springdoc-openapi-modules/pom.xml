@@ -22,6 +22,7 @@
 		<module>securityorauthorizationserverwebflux</module>
 		<module>kotlin</module>
 		<module>hateoas</module>
+		<module>dataRest</module>
 	</modules>
 
 </project>
