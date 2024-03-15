@@ -14,6 +14,12 @@
 
 ![Branching](https://springdoc.org/img/pets.png)
 
+# Alternatives to SpringDoc
+* Open API Generator
+  * `openapi-generator generate -i https://raw.githubusercontent.com/openapitools/openapi-generator/master/modules/openapi-generator/src/test/resources/3_0/petstore.yaml -g ruby -o /tmp/openapigeneratorsample`
+* Swagger Codegen
+  * `swagger-codegen generate -i https://petstore.swagger.io/v2/swagger.json -l ruby -o /tmp/test/`
+
 # **Thank you for the support**
 
 * Thanks a lot [JetBrains](https://www.jetbrains.com/?from=springdoc-openapi) for
