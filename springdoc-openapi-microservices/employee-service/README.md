@@ -1,8 +1,8 @@
-# More information about document generation
+# Additional information
 * `@OpenAPIDefinition`
   * Comes from Swagger-Core
   * Check in any format all the info added
-
+  * API information
 
 # How to run it locally?
 * Run it locally as mvn spring boot project
