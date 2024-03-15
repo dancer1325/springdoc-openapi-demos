@@ -35,7 +35,8 @@ public class GlobalControllerAdvice {
 	private static final Logger logger = LoggerFactory.getLogger(GlobalControllerAdvice.class);
 
 	@ExceptionHandler(Throwable.class)
-	@ResponseStatus(code = HttpStatus.INTERNAL_SERVER_ERROR)
+	// If you comment @ResponseStatus statement -> NOR displayed by SpringDoc
+	//@ResponseStatus(code = HttpStatus.INTERNAL_SERVER_ERROR)
 	public ResponseEntity<Problem> problem(final Throwable e) {
 		String message = e.getMessage();
 		//might actually prefer to use a geeric mesasge

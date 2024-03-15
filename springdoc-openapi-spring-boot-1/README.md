@@ -14,8 +14,3 @@
   * http://localhost:8080/v3/api-docs.yaml
     * YAML
     * Check the possible Error Endpoint Responses
-
-# Note
-* Check the relevant articles
-  * [DZone Part1](https://dzone.com/articles/openapi-3-documentation-with-spring-boot)
-  * [DZone Part2](https://dzone.com/articles/doing-more-with-springdoc-openapi)

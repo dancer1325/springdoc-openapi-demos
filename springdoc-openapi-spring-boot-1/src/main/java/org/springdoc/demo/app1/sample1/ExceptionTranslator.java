@@ -35,6 +35,7 @@ public class ExceptionTranslator {
 	private static final Logger LOGGER = LoggerFactory.getLogger(ExceptionTranslator.class);
 
 	@ExceptionHandler({ RuntimeException.class })
+	// If you comment the next @ResponseStatus statement -> NOR displayed by SpringDoc
 	@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
 	public ResponseEntity<ErrorMessage> handleRunTimeException(RuntimeException e) {
 		return error(HttpStatus.INTERNAL_SERVER_ERROR, e);
