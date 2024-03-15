@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-demos</artifactId>
+    <version>3.1.6-SNAPSHOT</version>
+  </parent>
+  <groupId>springdoc-openapi-demos</groupId>
+  <artifactId>springdoc-openapi-features</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>springdoc-openapi-features</name>
+  <url>http://maven.apache.org</url>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>DisableSwaggerUI</module>
+    <module>DisableSpringDoc</module>
+  </modules>
+</project>
