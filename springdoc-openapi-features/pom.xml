@@ -17,5 +17,6 @@
   <modules>
     <module>DisableSwaggerUI</module>
     <module>DisableSpringDoc</module>
+    <module>SwaggerUIConfiguration</module>
   </modules>
 </project>
