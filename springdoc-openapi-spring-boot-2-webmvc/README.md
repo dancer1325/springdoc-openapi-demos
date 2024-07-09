@@ -1,33 +1,23 @@
 # springdoc-openapi demo with spring-boot-2 web-mvc
 
-## Building application
+## Pre-requisites
+* JDK 8+
+* maven 3
+* docker CLI
 
-### Pre-requisites
+## How to run?
+* via local service in a port
+  * `mvn clean package`
+    * create an `executable jar`
+  * `java -jar executableName.jar`
+* via Docker container
+  * `mvn clean spring-boot:build-image`
+    * create a non-native OCI docker image
+  * `docker run --rm -p 8080:8081 springdoc-openapi-spring-boot-2-webmvc:3.1.6-SNAPSHOT`
 
-- JDK 8+
-- maven 3
-- docker CLI
-
-### Option 1: Building Executable JAR
-
-To create an `executable jar`, simply run:
-
-```sh
- mvn clean package
-```
-
-### Option 2: Building a non-native OCI Images
-
-To create a non-native OCI docker image, simply run:
-
-```sh
-mvn clean spring-boot:build-image
-```
-
-## Running the native application
-
-To run the demo using docker, invoke the following:
-
-```sh
-docker run --rm -p 8080:8081 springdoc-openapi-spring-boot-2-webmvc:3.1.6-SNAPSHOT
-```
+## Notes
+* OpenAPI specification -- 'petstore.yaml'
+  * once you compile -> exist in the classpath --check in 'target/classes' --
+  * ⚠️if you delete it or move to another folder and compile again -> ⚠
+    * NO existing anymore in th️e classpath &
+    * ⭐ swaggerUI still works ⭐ --> springDoc trust in SpringConfigurations
