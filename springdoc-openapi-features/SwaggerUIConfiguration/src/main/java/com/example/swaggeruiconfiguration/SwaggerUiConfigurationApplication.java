@@ -30,4 +30,7 @@ public class SwaggerUiConfigurationApplication {
 
 	@GetMapping("/")
 	public List<Book> findBooks() { return Collections.singletonList(new Book());}
+
+	@GetMapping("/sayHello")
+	public String sayHello() { return "Hello";}
 }
