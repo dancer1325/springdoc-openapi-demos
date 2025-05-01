@@ -19,9 +19,13 @@
       * check `@NotNull`, `@Size`, ...
 
 # How to run it locally?
-* Run it locally as mvn spring boot project
+* `mvn clean compile`
+* `mvn spring-boot:run`
 * Open in your browser
   * http://localhost:8080/swagger-ui/index.html
+    * Problems: 
+      * Problem1: "Not Found","statusCode":404"
+        * Solution: TODO:
 
 # Notes
 * [springdoc-openapi-maven-plugin](https://github.com/springdoc/springdoc-openapi-maven-plugin)
