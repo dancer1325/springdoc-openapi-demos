@@ -25,7 +25,7 @@
   * http://localhost:8080/swagger-ui/index.html
     * Problems: 
       * Problem1: "Not Found","statusCode":404"
-        * Solution: TODO:
+        * Solution: kill OTHER ports there
 
 # Notes
 * [springdoc-openapi-maven-plugin](https://github.com/springdoc/springdoc-openapi-maven-plugin)
